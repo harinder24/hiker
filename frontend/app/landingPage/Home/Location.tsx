@@ -18,7 +18,7 @@ export default function Location() {
       
       <Autocomplete
       className="h-14 px-4 text-black rounded-md max-w-[400px] caret-black"
-        apiKey="AIzaSyBpI2bxngE2rgKDFWzLl5BxKxMAs8DGHEs"
+        apiKey=""
         onPlaceSelected={(place) => console.log(place)}
       />
     </>

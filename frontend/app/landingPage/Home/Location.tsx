@@ -2,7 +2,7 @@
 import React from "react";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import Autocomplete from "react-google-autocomplete";
-//AIzaSyBpI2bxngE2rgKDFWzLl5BxKxMAs8DGHEs
+
 export default function Location() {
   return (
     <>

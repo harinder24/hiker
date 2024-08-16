@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+*/
+/* @layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}  */
+@font-face {
+  font-family: 'mons';
+  src: url('/font/mons.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.mons {
+  font-family: "mons";
+}
+.inter {
+  font-family: "Inter";
+}
+@font-face {
+  font-family: 'cavet';
+  src: url('/font/cavet.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'slr';
+  src: url('/font/slr.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.slr {
+  font-family: 'slr';
+}
+.cavet {
+  font-family: 'cavet';
+}
+.lightGreenGradient{
+  background: rgb(238,238,238);
+background: linear-gradient(180deg, rgba(238,238,238,1) 15%, rgba(228,255,225,1) 100%);
+}
+.bg-telephone-image{
+  background: url("/landing/telephone.jpg");
+  
+}
